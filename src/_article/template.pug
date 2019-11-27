@@ -2,8 +2,8 @@ extend ../_component/layout/base
 
 block config
     -
-        var title = template.config.title || 'Change me, title'
-        var description = template.config.description || `change me, I'm description`
+        var title = template.head.title || 'Change me, title'
+        var description = template.head.description || `change me, I'm description`
 block content 
     .content
         each something in template.body
@@ -25,7 +25,7 @@ block content
                 ul
                     each listItem in something.data
                         li=listItem
-            
+
             if something.type == 'h3'
                 h3=something.data
 
@@ -37,7 +37,7 @@ block content
             if something.type == "paragraph-safe"
                 each paragraph in something.data
                     p!=paragraph
-            
+
             if something.type == 'hr'
                 hr
             if something.type == 'img'

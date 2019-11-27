@@ -6,6 +6,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     footer,
     .content {
         grid-column: 1/3;

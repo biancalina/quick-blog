@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     // body {
     //     display: grid;
     //     grid-template-columns: 1fr 1fr;
@@ -7,6 +7,7 @@
 
     .menu__panel {
         margin: 0.5rem;
+
         &:first-of-type {
             grid-column: 1/2;
         }

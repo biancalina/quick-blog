@@ -4,9 +4,9 @@ body {
     font-family: 'Open Sans';
 }
 
-// html {
-//     font-size: 10px;
-// }
+html {
+    // font-size: 10px;
+}
 
 @media screen and (min-width: 25em){
     html { font-size: calc( 16px + (24 - 16) * (100vw -400px) / (800 - 400) );}
@@ -24,23 +24,23 @@ body {
     h1 {
         color: $color-white;
         font-weight: bold;
-        font-size: 4rem;
+        font-size: 2rem;
         margin: 1rem;
     }
 
     .welcome__description {
         line-height: 1.5;
         padding: 0 0.5rem;
-        font-size: 1.9rem;
+        font-size: 0.8rem;
         text-align: justify;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     a.scroll-down {
         color: $color-white;
         text-decoration: none;
-        font-size: 1rem;
-        padding: 1rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
         border-radius: 0.3rem;
         margin: 1rem;
         border: 0.1rem solid $color-white;
@@ -120,7 +120,8 @@ a {
 }
 
 p {
-    line-height: 1.5;
+    font-size: 0.6rem;
+    line-height: 1.2;
 }
 
 
@@ -128,11 +129,11 @@ p {
     padding: 1.5rem;
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 1.2rem;
         color: $color-dark;
         font-weight: bold;
         padding: 1rem 0;
-        line-height: 1.3;
+        line-height: 1;
     }
 
     blockquote {

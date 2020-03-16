@@ -18,8 +18,8 @@
     "pnp": true
   },
   "config": {
-    "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "customUrl": "https://biancalina.github.io/quick-blog/",
+    "githubUrl": "https://github.com/biancalina/quick-blog.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marianzburlea/pug-starter.git"
+    "url": "git+https://github.com/biancalina/quick-blog.git"
   },
   "keywords": [
     "pug",
@@ -71,7 +71,7 @@
   "bugs": {
     "url": "https://github.com/marianzburlea/pug-starter/issues"
   },
-  "homepage": "https://github.com/marianzburlea/pug-starter#readme",
+  "homepage": "https://biancalina.github.io/quick-blog/",
   "browserslist": [
     "last 2 version",
     "> 5%",

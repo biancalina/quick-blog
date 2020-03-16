@@ -4,9 +4,9 @@ body {
     font-family: 'Open Sans';
 }
 
-html {
-    font-size: 10px;
-}
+// html {
+//     font-size: 10px;
+// }
 
 @media screen and (min-width: 25em){
     html { font-size: calc( 16px + (24 - 16) * (100vw -400px) / (800 - 400) );}
@@ -46,7 +46,7 @@ html {
         border: 0.1rem solid $color-white;
         position: relative;
         background-color: $color-dark;
-        padding-right: 1.5rem;
+        padding-right: 1.3rem;
         display: flex;
         justify-content: center;
         align-items: center;
